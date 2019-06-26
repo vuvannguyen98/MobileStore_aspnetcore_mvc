@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MobileShop.Data.EF\MobileShop.Data.EF.csproj" />
+    <ProjectReference Include="..\MobileShop.Data\MobileShop.Data.csproj" />
+    <ProjectReference Include="..\MobileShop.Utilities\MobileShop.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
